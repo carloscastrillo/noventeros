@@ -1,0 +1,10 @@
+.env
+.env.*
+.dev.vars*
+*.db
+*.db-*
+*.har
+*.pcap*
+node_modules/
+private/
+output/
