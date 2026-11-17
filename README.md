@@ -11,3 +11,5 @@ El pipeline Python, los contratos y las evidencias se mantienen en el proyecto d
 Los seis iconos de navegación están siempre visibles: barra inferior en móvil y cabecera en ordenador. El calendario se presenta como agenda mensual en pantallas estrechas y conserva la cuadrícula cuando cabe. Las tablas permiten desplazamiento propio con los jugadores fijos a la izquierda, y la búsqueda, los filtros y las fichas siguen disponibles. La revisión se realiza en Chrome con tamaños móviles y de escritorio; no equivale a una prueba en Safari de un iPhone físico.
 
 La tipografía Manrope se incluye en el HTML y no hace peticiones a Google Fonts al consultar la web. Copyright 2018 The Manrope Project Authors; licencia SIL Open Font License 1.1 en [OFL-Manrope.txt](OFL-Manrope.txt), también incluida en el HTML.
+
+La tabla compacta muestra PAR JUG, MIN JUG y PT; minutos y puntos son promedios por partido. 5I se conserva como dato no disponible, sin convertirlo en cero. Los nombres completos se mantienen en las fichas. El resumen de temporada muestra posición, últimos cinco resultados, victorias, derrotas y balance de puntos de la captura.
