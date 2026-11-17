@@ -4,7 +4,7 @@ Panel público del equipo NOVENTEROS: calendario, resultados, clasificación y e
 
 `index.html` es autónomo y permite consultar los datos sin peticiones a Swish. `noventeros.ics` contiene únicamente los partidos con fecha publicada. No se incluyen contraseñas, tokens, SQLite o capturas de sesión.
 
-Los datos proceden de capturas autorizadas de Swish/NBN23 del 16 de noviembre de 2026 y de la plantilla del equipo. El panel no es una aplicación oficial de NBN23. La actualización automática de los lunes todavía no está activada.
+Los datos proceden de las actas propias del 16 de noviembre y del calendario y clasificación públicos del 17 de noviembre de 2026, además de la plantilla del equipo. El panel no es una aplicación oficial de NBN23. La actualización automática de los lunes todavía no está activada.
 
 El pipeline Python, los contratos y las evidencias se mantienen en el proyecto de investigación original. Para actualizar esta web se regeneran HTML/ICS allí y se sustituyen estos dos archivos. El diseño conserva el logotipo del equipo y la atribución de Unslop incluida en el pie.
 
@@ -13,3 +13,9 @@ La cabecera muestra el logotipo centrado y los seis iconos de navegación aparec
 La tipografía Manrope se incluye en el HTML y no hace peticiones a Google Fonts al consultar la web. Copyright 2018 The Manrope Project Authors; licencia SIL Open Font License 1.1 en [OFL-Manrope.txt](OFL-Manrope.txt), también incluida en el HTML.
 
 La tabla compacta muestra PAR JUG, MIN JUG y PT; minutos y puntos son promedios por partido. 5I se conserva como dato no disponible, sin convertirlo en cero. Los nombres completos se mantienen en las fichas. El resumen de temporada muestra posición, últimos cinco resultados, victorias, derrotas y balance de puntos de la captura.
+
+## Scouting y evolución (17 de noviembre de 2026)
+
+El panel incorpora un mapa técnico de datos y evidencias al pie, scouting por cualquiera de los 13 equipos de Primera y evolución individual en las fichas. El scouting utiliza el calendario público capturado el 17/11: 156 cruces entre equipos, 34 resultados, 26 pendientes con fecha y 96 sin fecha. Se excluyen 26 huecos sin dos equipos. La clasificación y los resultados del calendario son fuentes distintas; dos equipos presentan discrepancias entre partidos jugados y victorias más derrotas en la clasificación publicada.
+
+La evolución individual conserva únicamente las cinco actas propias capturadas el 16/11; los partidos sin acta no se convierten en ceros. Los minutos interpretan el tiempo como segundos por coherencia de las capturas, pendiente de contraste visual. Los fallos de tiro de campo, rebotes y asistencias no están verificados como completos. No se infieren estadísticas individuales rivales ni resultados futuros. Los datos son una fotografía y no se actualizan automáticamente.
