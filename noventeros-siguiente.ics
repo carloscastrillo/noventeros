@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Swish Research//Observaciones//ES
+X-WR-CALNAME:NOVENTEROS · observaciones (ver procedencia)
+BEGIN:VEVENT
+SUMMARY:NOVENTEROS – C.B. VILAMARXANT
+DTSTART:20261122T171000Z
+DTSTAMP:20261116T113713Z
+UID:142330a92f015bdf0e222606a4062a4d@swish-research.local
+SEQUENCE:0
+DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
+ ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
+  Sin duración verificada.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
