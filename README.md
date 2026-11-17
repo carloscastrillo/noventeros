@@ -8,7 +8,7 @@ Los datos proceden de capturas autorizadas de Swish/NBN23 del 16 de noviembre de
 
 El pipeline Python, los contratos y las evidencias se mantienen en el proyecto de investigación original. Para actualizar esta web se regeneran HTML/ICS allí y se sustituyen estos dos archivos. El diseño conserva el logotipo del equipo y la atribución de Unslop incluida en el pie.
 
-La cabecera muestra el logotipo centrado y los seis iconos de navegación aparecen en una barra inferior flotante. El calendario mantiene los filtros Todos y Próximos y muestra el nombre del rival y su posición en la clasificación de la captura del 16/11/2026, no una posición histórica. La tabla de jugadores conserva la ordenación y las fichas; se han retirado los controles de búsqueda y filtrado de esa tabla. La revisión se realiza en Chrome con tamaños móviles y de escritorio; no equivale a una prueba en Safari de un iPhone físico.
+La cabecera muestra el logotipo centrado y los seis iconos de navegación aparecen en una barra inferior flotante. El calendario mantiene los filtros Todos y Próximos y muestra el nombre del rival y su posición en la clasificación de la captura del 16/11/2026, no una posición histórica. La tabla «Estadísticas generales» conserva la ordenación y las fichas; la ficha inicial corresponde al primer dorsal de la tabla; se han retirado los controles de búsqueda y filtrado de esa tabla. La revisión se realiza en Chrome con tamaños móviles y de escritorio; no equivale a una prueba en Safari de un iPhone físico.
 
 La tipografía Manrope se incluye en el HTML y no hace peticiones a Google Fonts al consultar la web. Copyright 2018 The Manrope Project Authors; licencia SIL Open Font License 1.1 en [OFL-Manrope.txt](OFL-Manrope.txt), también incluida en el HTML.
 
