@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<meta content="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; script-src 'sha256-4XUMym/sCSDx0rRyzNm6r8htrHHqTGQVIqKgLsejkEU='; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta content="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; script-src 'sha256-AfYZc/OWx2soj6BOcdX1Wi5YyzR/RdazILxmMgGtM18='; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
 <title>NOVENTEROS</title><style>/*
 Copyright 2018 The Manrope Project Authors (https://github.com/googlefonts/manrope)
 
@@ -116,6 +116,7 @@ a{color:inherit;text-decoration:none}
 a:hover{color:var(--accent-ink)}
 a,button,input,select,summary{-webkit-tap-highlight-color:transparent}
 :focus-visible{outline:3px solid var(--accent-ink);outline-offset:4px}
+.pointer-navigation-focus:focus{outline:none}
 button,input,select{font:inherit;color:inherit}
 button,summary{cursor:pointer}
 button{transition:background-color 140ms,color 140ms}
@@ -652,7 +653,7 @@ Cuatro resultados coinciden con el snapshot previo del widget. Falta contrastar 
 <p>Los nombres y dorsales de plantilla se unen por ID. Hay discrepancias entre el número de plantilla y algunos campos de los registros de partido;
 no demuestran un cambio real de dorsal. Los valores originales se conservan. No se unen fichas por nombre o dorsal.</p>
 <p>Los tiempos y +/− se capturaron en cinco partidos. La unidad de tiempo se interpreta como segundos: cada partido suma 12.000 entre jugadores. Rebotes, asistencias y tiros de campo fallados devuelven cero en toda la captura, sin anotación completa verificada. No se calculan porcentajes T2/T3 o estadísticas por minuto. La información no se actualiza automáticamente.</p>
-<p>Generado 2026-11-17T09:52:07.085539+00:00. Las fuentes, peticiones y comprobaciones están documentadas en el repositorio.</p></details></main>
+<p>Generado 2026-11-17T10:02:51.600310+00:00. Las fuentes, peticiones y comprobaciones están documentadas en el repositorio.</p></details></main>
 <footer>NOVENTEROS, temporada 2026/27. Revisión visual con <a href="https://github.com/heydamir/unslop">Unslop de Damir Sokolovsky</a>, CC BY 4.0.</footer>
 <script>"use strict";
 document.documentElement.classList.add("js");
@@ -752,10 +753,15 @@ navigationObserver.observe(header);
 navigationObserver.observe(nav);
 updateNavigationInsets();
 const navigation = [...navList.querySelectorAll("a")];
-for (const link of navigation) link.addEventListener("click", () => {
-  const destination = document.querySelector(link.hash);
-  destination.setAttribute("tabindex", "-1");
-  destination.focus({preventScroll: true});
+for (const link of navigation) link.addEventListener("click", event => {
+  const heading = document.querySelector(link.hash).querySelector("h1, h2");
+  const pointerActivation = event.detail > 0;
+  requestAnimationFrame(() => {
+    heading.setAttribute("tabindex", "-1");
+    heading.classList.toggle("pointer-navigation-focus", pointerActivation);
+    heading.addEventListener("blur", () => heading.classList.remove("pointer-navigation-focus"), {once: true});
+    heading.focus({preventScroll: true});
+  });
 });
 document.fonts.ready.then(updateNavigation);
 let scrollQueued = false;
