@@ -1,16 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Swish Research//Observaciones//ES
-X-WR-CALNAME:NOVENTEROS · observaciones (ver procedencia)
+X-WR-CALNAME:NOVENTEROS
 BEGIN:VEVENT
 SUMMARY:HOOPERS – NOVENTEROS
 DTSTART:20261003T160000Z
 DTSTAMP:20261116T113713Z
 UID:7d8a067d9fb01fd7c0c475690fce65ad@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -20,9 +17,6 @@ DTSTART:20261018T161000Z
 DTSTAMP:20261116T113713Z
 UID:c9b6619079149bb8afc941cc4f70d2ae@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -32,9 +26,6 @@ DTSTART:20261022T184500Z
 DTSTAMP:20261116T113713Z
 UID:dc63db9573a78aba4ac3201a54ea5b1e@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -44,9 +35,6 @@ DTSTART:20261108T171000Z
 DTSTAMP:20261116T113713Z
 UID:3327062a1400215f2cce310c0a316c58@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -56,9 +44,6 @@ DTSTART:20261115T171000Z
 DTSTAMP:20261116T113713Z
 UID:4910551fe6faf4088a440b09b0b7a626@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -68,9 +53,6 @@ DTSTART:20261122T171000Z
 DTSTAMP:20261116T113713Z
 UID:142330a92f015bdf0e222606a4062a4d@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -80,9 +62,6 @@ DTSTART:20261129T152000Z
 DTSTAMP:20261116T113713Z
 UID:da19ba9e6d984d66f3136c287be26d38@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -92,9 +71,6 @@ DTSTART:20261213T171000Z
 DTSTAMP:20261116T113713Z
 UID:ad2c393bed6fde24d61dc7b06866b084@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -104,9 +80,6 @@ DTSTART:20261220T190000Z
 DTSTAMP:20261116T113713Z
 UID:aa2369870de3c34a4666d6a6917418b2@swish-research.local
 SEQUENCE:0
-DESCRIPTION:Fuente: swish_widget\; evidencia: WIDGET-CALENDAR. UTC explíc
- ito en JSON\; epoch 1970 equivale a sin fecha\; vista local Europe/Madrid.
-  Sin duración verificada.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
